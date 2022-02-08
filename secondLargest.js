@@ -1,4 +1,5 @@
 // find the second largest number from a array
+
 function nextBiggest(arr) {
     let max = -Infinity, result = -Infinity;
   
@@ -6,9 +7,9 @@ function nextBiggest(arr) {
       const nr = Number(value)
   
       if (nr > max) {
-        [result, max] = [max, nr] // save previous max
+        [result, max] = [max, nr] 
       } else if (nr < max && nr > result) {
-        result = nr; // new second biggest
+        result = nr; 
       }
     }
   
