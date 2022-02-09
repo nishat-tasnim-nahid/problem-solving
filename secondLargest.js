@@ -9,7 +9,7 @@ function nextBiggest(arr) {
       if (nr > max) {
         [result, max] = [max, nr] 
       } else if (nr < max && nr > result) {
-        result = nr; 
+        result = nr;
       }
     }
   
@@ -17,4 +17,18 @@ function nextBiggest(arr) {
   }
   
   const arr = [2,3,4,5,6,3,4,5,67];
-  console.log(nextBiggest(arr));
+  // console.log(nextBiggest(arr));
+
+
+  let a=2;
+  let b=3;
+  let math = a+b;
+  console.log(math)
+
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
+ 
+  
+  
